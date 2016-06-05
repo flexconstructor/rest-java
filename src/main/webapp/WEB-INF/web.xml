@@ -69,5 +69,16 @@
        <welcome-file>index.html</welcome-file>
     </welcome-file-list>
 
+    <servlet>
+        <servlet-name>ServerLauncher</servlet-name>
+        <servlet-class>ru.flexconstructor.ttt.server.ServerLauncher
+        </servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServerLauncher</servlet-name>
+        <url-pattern>*.</url-pattern>
+    </servlet-mapping>
+
 
 </web-app>

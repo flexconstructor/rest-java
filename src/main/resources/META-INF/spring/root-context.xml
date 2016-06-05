@@ -12,6 +12,7 @@
     <import resource="email-services-context.xml"/>
     <import resource="data-context.xml"/>
     <import resource="email-template-context.xml"/>
+    <import resource="nadron-context.xml"/>
 
     <bean id="validatorFactory" class="javax.validation.Validation" factory-method="buildDefaultValidatorFactory"/>
     <bean id="validator" factory-bean="validatorFactory" factory-method="getValidator"/>
